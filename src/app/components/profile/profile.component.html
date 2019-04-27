@@ -1,0 +1,24 @@
+
+<!-- Card -->
+<div *ngIf="user" class="card testimonial-card" style="height: 450px;width:400px;margin-top:30px;margin-bottom: 30px;margin-left: 500px;">
+
+  <!-- Background color -->
+  <div class="card-up indigo lighten-1"></div>
+
+  <!-- Avatar -->
+  <div class="avatar mx-auto white" style="margin-top:20px">
+    <img src="../../../assets/logo.png" class="rounded-circle" alt="woman avatar">
+  </div>
+
+  <!-- Content -->
+  <div class="card-body">
+    <!-- Name -->
+    <h4 class="text-center">{{user.name}}</h4>
+    <hr>
+    <!-- Quotation -->
+    <p>Username:{{user.username}}</p>
+    <p>Email: {{user.email}}</p>
+  </div>
+
+</div>
+<!-- Card -->

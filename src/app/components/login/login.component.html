@@ -1,0 +1,53 @@
+<div class="container  d-flex justify-content-center" style=" height: 550px ; margin-top: 20px">
+<!-- Default form login -->
+<form (submit)="onLoginSubmit()"  autocomplete="off" class="text-center border border-light p-5" style="height:543px;width: 500px;">
+
+    <p class="h4 mb-4">Login</p>
+
+    <!-- Username -->
+    <input type="text"  class="form-control mb-4" [(ngModel)]="username" name="username" placeholder="Username">
+
+    <!-- Password -->
+    <input type="password"  class="form-control mb-4" [(ngModel)]="password" name="password" placeholder="Password">
+
+    <div class="d-flex justify-content-around">
+        <div>
+            <!-- Remember me -->
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+            </div>
+        </div>
+        <div>
+            <!-- Forgot password -->
+            <a href="#">Forgot password?</a>
+        </div>
+    </div>
+
+    <!-- Sign in button -->
+    <button class="block blue-gradient" type="submit">Sign in</button>
+
+    <!-- Register -->
+    <p>Not a member?
+        <a routerLink="/register">Register</a>
+    </p>
+
+    <!-- Social login -->
+    <p>or sign in with:</p>
+
+    <a type="button" class="light-blue-text mx-2" (click)="onFacebookLogin('facebook')">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    <a type="button" class="light-blue-text mx-2" (click)="onTwitterLogin('twitter')">
+        <i class="fab fa-twitter"></i>
+    </a>
+    <a type="button" class="light-blue-text mx-2" (click)="onGoogleLogin('google')">
+        <i class="fab fa-google-plus-g"></i>
+    </a>
+    <a type="button" class="light-blue-text mx-2">
+        <i class="fab fa-github"></i>
+    </a>
+
+</form>
+<!-- Default form login -->
+</div>

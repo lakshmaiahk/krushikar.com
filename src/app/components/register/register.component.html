@@ -1,0 +1,54 @@
+<div class="container  d-flex justify-content-center" style=" height: 600px ;margin-top: 20px">
+<!-- Default form register -->
+<form (submit)="onRegisterSubmit()" autocomplete="off" class="text-center border border-light p-5" style="height:600px;width: 500px;">
+
+    <p class="h4 mb-4">Register</p>
+
+    <!--Name-->
+    <input type="text" [(ngModel)]="name" name="name" class="form-control" placeholder="Name">
+    <br>
+    <!-- First name -->
+    <input type="text" [(ngModel)]="username" name="username" class="form-control" placeholder="User Name">
+    <br>
+    <!-- E-mail -->
+    <input type="email"  [(ngModel)]="email" name="email" class="form-control mb-4" placeholder="E-mail">
+
+    <!-- Password -->
+    <input type="password" [(ngModel)]="password" name="password" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+    <br>
+    <!-- Newsletter -->
+    <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input">
+        <label class="custom-control-label" for="defaultRegisterFormNewsletter">Subscribe to our newsletter</label>
+    </div>
+
+    <!-- Sign up button -->
+    <button class="block blue-gradient" type="submit">Sign up</button>
+
+    <!-- Social register -->
+    <p>or sign up with:</p>
+
+    <a type="button" class="light-blue-text mx-2">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    <a type="button" class="light-blue-text mx-2">
+        <i class="fab fa-twitter"></i>
+    </a>
+    <a type="button" class="light-blue-text mx-2">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a type="button" class="light-blue-text mx-2">
+        <i class="fab fa-github"></i>
+    </a>
+
+    <hr>
+
+    <!-- Terms of service -->
+    <p>By clicking
+        <em>Sign up</em> you agree to our
+        <a href="" target="_blank">terms of service</a>
+
+</form>
+<!-- Default form register -->
+
+</div>

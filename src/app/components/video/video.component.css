@@ -1,0 +1,31 @@
+.pb-video-container {
+    /* padding-top: 20px; */
+    background: #FFFFFF;
+    font-family: Lato;
+}
+
+.text-xs-center {
+    color: #202478;
+}
+
+.pb-video {
+    border: 1px solid #FFFFFF;
+    /* padding: 5px; */
+}
+
+.pb-video:hover {
+    background: #2c3e50;
+    border-radius: 10px;
+}
+
+.pb-video-frame {
+    transition: width 2s, height 2s;
+}
+
+.pb-video-frame:hover {
+    height: 250px;
+}
+
+.pb-row {
+    margin-bottom: 10px;
+}

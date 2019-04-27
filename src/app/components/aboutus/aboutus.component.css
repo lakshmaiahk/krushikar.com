@@ -1,0 +1,90 @@
+
+.body
+{
+    background-color: rgb(106, 158, 151);
+}
+#r1{
+  background:rgb(255, 225, 144);
+  border-radius:10px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+  
+  font-family: 'arial', sans-serif;
+  font-weight: bold;
+  margin-top: 45px;
+ color:rgb(51, 3, 53);
+  padding:20px;
+  display: block;
+  background-image: linear-gradient(to left,
+    transparent,
+    transparent 50%,
+    #f8c558 50%,
+    #f8da53);
+  background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    
+}
+.col-lg-6:hover{
+  background-position: 0 0;
+  color:rgb(29, 5, 5);
+  padding:10px;
+  background-color:  #f8c558;
+  border-radius: 10px;
+  
+}
+
+
+
+#r2{
+    background:rgb(255, 225, 144);
+    border-radius:10px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    
+    font-family: 'arial', sans-serif;
+    font-weight: bold;
+    margin-top: 45px;
+   color:rgb(51, 3, 53);
+    padding:20px;
+    display: block;
+    background-image: linear-gradient(to left,
+      transparent,
+      transparent 50%,
+      #f8c558 50%,
+      #f8da53);
+    background-position: 100% 0;
+      background-size: 200% 100%;
+      transition: all .25s ease-in;
+      
+  }
+
+
+  
+  #r3{
+    background:rgb(255, 225, 144);
+    border-radius:10px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    
+    font-family: 'arial', sans-serif;
+    font-weight: bold;
+    margin-top: 45px;
+   color:rgb(51, 3, 53);
+    padding:20px;
+    display: block;
+    background-image: linear-gradient(to left,
+      transparent,
+      transparent 50%,
+      #f8c558 50%,
+      #f8da53);
+    background-position: 100% 0;
+      background-size: 200% 100%;
+      transition: all .25s ease-in;
+      
+  }
+ 
+  
